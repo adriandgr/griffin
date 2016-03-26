@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+
+      {% include static-navbar.html %}
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    {% include footer.html %}
+    {% include bootstrap-core-js.html %}
+    {% include ie10-viewport-fix.html %}
+  </body>
+
+</html>
