@@ -13,9 +13,13 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://code.adriandiaz.ca/" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/"     # the base hostname & protocol for your site
+                                  # http://code.adriandiaz.ca/ when testing with GitHub 
+                                  # http://127.0.0.1:4000/ when testing locally
 twitter_username: jekyllrb
 github_username:  adriandgr
+facebook_username: GriffinArtProjects
+instagram_username: griffinartprojects
 author: Griffin Art Projects
 
 # Build settings
@@ -23,3 +27,11 @@ markdown: kramdown
 
 include: ["_pages"]
 permalink: /:categories/:title/
+
+collections:
+  exhibitions:
+    output: true
+    permalink: /exhibitions/:path/
+  artworks:
+    output: true
+    permalink: /artworks/:path/
