@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: Myfanwy MacLeod
-img: MacLeod-2009.jpg
+img: MacLeod-2009-520.jpg
 ---
 
 
