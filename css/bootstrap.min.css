@@ -27,6 +27,11 @@ section,
 summary {
   display: block;
 }
+.post-line {
+  border-width: 2px;
+  border-top-style: solid;
+  border-color: #808080;
+}
 audio,
 canvas,
 progress,
@@ -4973,9 +4978,11 @@ a.badge:focus {
   line-height: 10px;
 }
 .jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
+  margin-bottom: 20px;
   font-weight: 200;
+  line-height: 22px;
+  color: #808080;
+  font-size: 13pt;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4983,8 +4990,10 @@ a.badge:focus {
 .jumbotron a {
   color: black;
 }
-.jumbotron .caption span{
-  line-height: 0px;
+.artcaption span {
+  line-height: 5px;
+  color: #808080;
+  font-size: 10pt;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -4995,6 +5004,7 @@ a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
