@@ -44,6 +44,7 @@ template {
 }
 a {
   background-color: transparent;
+  color: #000000;
 }
 a:active,
 a:hover {
@@ -1097,12 +1098,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #000000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #000000;
   text-decoration: underline;
 }
 a:focus {
@@ -1342,7 +1343,7 @@ mark,
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #000000;
 }
 .text-success {
   color: #3c763d;
@@ -4963,11 +4964,13 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: transparent;
 }
 .jumbotron h1,
+.jumbotron h2,
 .jumbotron .h1 {
   color: inherit;
+  line-height: 10px;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4976,6 +4979,12 @@ a.badge:focus {
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
+}
+.jumbotron a {
+  color: black;
+}
+.jumbotron .caption span{
+  line-height: 0px;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
