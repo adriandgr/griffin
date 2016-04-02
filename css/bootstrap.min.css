@@ -4975,7 +4975,12 @@ a.badge:focus {
 .jumbotron h2,
 .jumbotron .h1 {
   color: inherit;
-  line-height: 10px;
+  line-height: 20px;
+}
+
+.jumbotron h2 {
+  font-weight: bold;
+  font-size: 24px;
 }
 .jumbotron p {
   margin-bottom: 20px;
