@@ -10,9 +10,9 @@
             </button>
             <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logo.png" alt="{{ site.title }}" width="258px" height="56px"></a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
+          <div class="nav navbar-nav navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="{{ site.baseurl }}/about">About</a></li>
+              <li><a href="{{ site.baseurl }}/about">About</a></li>
               <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Exhibitions <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -27,11 +27,7 @@
               <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
               
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li>{% include icon-facebook.html %}</li>
-              <li>{% include icon-instagram.html %}</li>
-              <li>{% include icon-twitter.html %}</li>
-            </ul>
+           
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
