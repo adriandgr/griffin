@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Surrogates
-feature: true
+tt-grid: true
+tt-path: slider-Surrogates.html
 img: Cain-2010-520.jpg
 img-artist: Sarah Cain
 img-title: Self-portrait
@@ -29,8 +30,3 @@ These diverse artworks, infused with a sense of the absurd, suggest that what ap
 
 This exhibition was curated by Helga Pakasaar, with generous loans from the Freybe Collection; GreyChurch, Collection of Jane Irwin and Ross Hill; Prout-Lara Collection; Rainer Muller.
 
-<a href="{{ site.url }}artworks/surrogates/macleod-2009/"><img alt="Myfanwy MacLeod" title="" src="http://griffinartprojects.ca/wp-content/uploads/detail5-200x200.jpg" class="wc-shortcodes-image alignleft size-thumbnail wp-image-488"></a>
-<a href="{{ site.url }}artworks/surrogates/beasley-2009/"><img alt="Kevin Beasley" title="" src="http://griffinartprojects.ca/wp-content/uploads/detail4-200x200.jpg" class="wc-shortcodes-image alignleft size-thumbnail wp-image-487"></a>
-<a href="{{ site.url }}artworks/surrogates/macleod-2009/"><img alt="Walead Beshty" title="" src="http://griffinartprojects.ca/wp-content/uploads/detail3-200x200.jpg" class="wc-shortcodes-image alignleft size-thumbnail wp-image-486"></a>
-<a href="{{ site.url }}artworks/surrogates/macleod-2009/"><img alt="Kris Martin" title="" src="http://griffinartprojects.ca/wp-content/uploads/detail2-200x200.jpg" class="wc-shortcodes-image alignleft size-thumbnail wp-image-485"></a>
-<a href="{{ site.url }}artworks/surrogates/macleod-2009/"><img alt="Marlo Pascual" title="" src="http://griffinartprojects.ca/wp-content/uploads/detail1-200x200.jpg" class="wc-shortcodes-image alignleft size-thumbnail wp-image-484"></a>

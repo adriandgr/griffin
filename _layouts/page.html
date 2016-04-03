@@ -8,16 +8,8 @@ layout: default
   </header>
 
   <div class="post-content">
-  	{% if page.feature == true %}
-  	<figure style="float: left; margin: 0px 20px 10px 0px;">
-  <img src="{{ site.url }}/assets/img/artworks/{{ page.img }}" alt="{{ page.img-title }}" style="margin: 0px 0px 10px 0px;">
-  <figcaption style="font-size: 11pt; color: #808080; line-height: 20px; max-width: 400px;">
-  <strong>{{ page.img-artist}}</strong><br />
-  <em>{{ page.img-title }}</em>, {{ page.img-year }} <br />
-  {{ page.img-medium }} <br />
-  <span style="font-size: 10pt;">{{ page.img-credit }}</span>
-  </figcaption>
-</figure>
+  	{% if page.tt-grid == true %}
+  	{% include {{ page.tt-path }} %}
   	{%endif%}
     	{{ content }}
     </div>

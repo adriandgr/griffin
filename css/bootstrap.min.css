@@ -27,11 +27,7 @@ section,
 summary {
   display: block;
 }
-.post-line {
-  border-width: 2px;
-  border-top-style: solid;
-  border-color: #808080;
-}
+
 audio,
 canvas,
 progress,
