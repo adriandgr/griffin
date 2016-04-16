@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Surrogates
-tt-grid: true
-tt-path: slider-Surrogates.html
+slick: true
+slick-path: slider-Surrogates.html
 img: Cain-2010-520.jpg
 img-artist: Sarah Cain
 img-title: Self-portrait

@@ -15,8 +15,8 @@
       </div>
     </div> <!-- /container -->
     {% include footer.html %}
-    {% if page.tt-grid == true %}{% include tt-grid.html %}{% endif %}
     {% include bootstrap-core-js.html %}
+    {% if page.slick == true %}{% include slick-js.html %}{% endif %}
     {% include ie10-viewport-fix.html %}
   </body>
 

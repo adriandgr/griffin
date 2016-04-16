@@ -24,12 +24,15 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    {% if page.tt-grid == true %}
-    <!-- Thumbnail Grid Effects -->
-    
-    
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/thumbs/css/component.css" | prepend: site.baseurl }}" />
-    <script src="{{ "/assets/thumbs/js/modernizr.custom.js" | prepend: site.baseurl }}"></script>
+    {% if page.slick == true %}
+    <!-- Slick Carousel by Ken Wheeler -->
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/carousel/slick/slick.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/carousel/slick/slick-theme.css" | prepend: site.baseurl }}" />
+
+    <!-- Featherlight -->
+    <link type="text/css" rel="stylesheet" href="{{ "/assets/featherlight/release/featherlight.min.css" | prepend: site.baseurl }}" />
+    <link type="text/css" rel="stylesheet" href="{{ "/assets/featherlight/release/featherlight.gallery.min.css" | prepend: site.baseurl }}" />
+
     {% endif %}
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
