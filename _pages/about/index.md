@@ -3,12 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
+<div class="row mainstyle">
+<div class="col-md-7">
+<p>Griffin Art Projects is an art gallery space located in North Vancouver that showcases contemporary art exhibitions, primarily from private collections. Inspired by the strength of private art collections in our region, Griffin Art Projects builds on the important role that collectors and contemporary artists play in our cultural landscape through exhibitions, events, and publications.</p>
 
-Griffin Art Projects is an art gallery space located in North Vancouver that showcases contemporary art exhibitions, primarily from private collections. Inspired by the strength of private art collections in our region, Griffin Art Projects builds on the important role that collectors and contemporary artists play in our cultural landscape through exhibitions, events, and publications.
+<p>Founded by Brigitte and Henning Freybe who began collecting contemporary art in the early 1970s, the Griffin Foundation was established to make the visuals art widely accessible.</p>
 
-Founded by Brigitte and Henning Freybe who began collecting contemporary art in the early 1970s, the Griffin Foundation was established to make the visuals art widely accessible.
-
-Griffin Art Projects does not accept submissions.
+<p>Griffin Art Projects does not accept submissions.</p>
+</div>
+<div class="col-md-5">
 
 <iframe
   width="100%"
@@ -17,11 +20,14 @@ Griffin Art Projects does not accept submissions.
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAIpBruqIXZX3YqiqXmX1c2BGWLSvA1b4Y
     &q=Griffin+Art+Projects,North+Vancouver+BC" allowfullscreen>
 </iframe>
+<p class="address">1174 Welch Street<br>
+North Vancouver, BC V7P 2R5<br>
+Canada</p>
 
-
-
+</div>
+</div>
 <h2><a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #808080">
-   Staff
+   &#11206; Staff
 </a></h2>
 
 <div class="collapse" id="collapseExample">
@@ -46,36 +52,7 @@ Griffin Art Projects does not accept submissions.
   </div>
 </div>
 
-<h2><a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" style="text-decoration: none; color: #808080">
-   Board of Directors
-</a></h2>
 
-<div class="collapse" id="collapseExample2">
-  <div class="well">
-    <table style="width:100%">
-	  <tr>
-	    <td><strong>Board Member 1</strong></td>
-	    <td>Role</td> 
-	    <td>email</td>
-	  </tr>
-	  <tr>
-	    <td><strong>Board Member 2</strong></td>
-	    <td>Role</td> 
-	    <td>email</td>
-	  </tr>
-	  <tr>
-	    <td><strong>Board Member 3</strong></td>
-	    <td>Role</td> 
-	    <td>email</td>
-	  </tr>
-	  <tr>
-	    <td><strong>Board Member 3</strong></td>
-	    <td>Role</td> 
-	    <td>email</td>
-	  </tr>
-	</table>
-  </div>
-</div>
 
 
 
