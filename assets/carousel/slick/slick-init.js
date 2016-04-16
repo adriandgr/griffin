@@ -7,7 +7,7 @@ $(document).ready(function(){
 		slidesToShow: 5,
 		slidesToScroll: 5,
 		adaptiveHeight: true,
-		
+
 
 		responsive: [
 		{
@@ -15,8 +15,8 @@ $(document).ready(function(){
 		  settings: {
 		    slidesToShow: 4,
 		    slidesToScroll: 4,
-		    infinite: true,
-		    dots: true
+		    infinite: false,
+		    dots: false
 		  }
 		},
 		{
@@ -24,8 +24,8 @@ $(document).ready(function(){
 		  settings: {
 		    slidesToShow: 3,
 		    slidesToScroll: 3,
-		    infinite: true,
-		    dots: true
+		    infinite: false,
+		    dots: false
 		  }
 		}
 		// You can unslick at a given breakpoint now by adding:

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Past Exhibitions
+permalink: /exhibitions/
+---
+
+{% for show in site.exhibitions reversed %}
+
+<div class="jumbotron" style="margin-bottom: 0px; padding-bottom: 0px;">
+     
+<h2><a href="{{ show.url }}">{{ show.title }}</a></h2>
+<a href="{{ show.url }}">
+<p><span style="font-size: 11pt">{{ show.show-dates }}</span></p>
+</a><a href="{{ show.url }}"><img alt="{{ show.img-artist }}" title="" src="{{ site.url }}/assets/img/artworks/{{ show.img }}"></a>
+<br><br>
+<span class="artcaption" style="font-size: 10pt; color: #808080">
+<strong>{{ show.img-artist }}</strong><br>
+<em>{{ show.img-title }}</em>, {{ show.img-year }}<br>
+{{ show.img-medium }}{% if show.img-credit %}<br>
+{{ show.img-credit }} {% endif %}
+
+{% if show.last-post == false %} <hr style="margin-top: 80px;"> {% endif %}
+{% if show.last-post == true %} <br> <br> <br> {% endif %}
+</span>    
+</div>
+
+{% endfor %}
+
+

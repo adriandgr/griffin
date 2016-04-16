@@ -1,14 +1,17 @@
 ---
 layout: page
 title: Surrogates
+show-dates: March 5, 2016 – June 4, 2016
 slick: true
 slick-path: slider-Surrogates.html
+thumbnail-path: cain-sqr.jpg
 img: Cain-2010-520.jpg
 img-artist: Sarah Cain
 img-title: Self-portrait
 img-year: 2010
 img-medium: acrylic and gouache on sheet music
 img-credit: Courtesy of Prout-Lara Collection, the artist and Anthony Meier Fine Arts, San Francisco
+last-post: false
 ---
 
 
