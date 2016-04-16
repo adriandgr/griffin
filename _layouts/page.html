@@ -4,7 +4,8 @@ layout: default
 <article class="post-line">
 <div class="jumbotron">
   <header class="post-header">
-    <h2 style="color: #808080;">{{ page.title }}</h2>
+    <h2>{{ page.title }}</h2>
+    {% if page.show-caption %}<h4>{{ page.show-caption }}</h4>{%endif%}
   </header>
 
   <div class="post-content">

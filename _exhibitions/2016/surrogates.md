@@ -5,7 +5,7 @@ show-dates: March 5, 2016 – June 4, 2016
 slick: true
 slick-path: slider-Surrogates.html
 thumbnail-path: cain-sqr.jpg
-img: Cain-2010-520.jpg
+img: surrogates/Cain-2010-520.jpg
 img-artist: Sarah Cain
 img-title: Self-portrait
 img-year: 2010

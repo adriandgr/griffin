@@ -69,7 +69,7 @@ mailchimp: true
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<h2 style="color: #898045;">Sign up for e-mail updates</h2>
+<h2 style="color: #898045;">Subscribe to receive e-mail updates</h2>
 <form action="//griffinartprojects.us11.list-manage.com/subscribe/post?u=eb1ef5acf2935e738616a162a&amp;id=5f3ab1f744" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	
