@@ -20,7 +20,63 @@ Griffin Art Projects does not accept submissions.
 
 
 
-<h2> Staff</h2>
+<h2><a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #808080">
+   Staff
+</a></h2>
+
+<div class="collapse" id="collapseExample">
+  <div class="well">
+    <table style="width:100%">
+	  <tr>
+	    <td><strong>Lee Plested</strong></td>
+	    <td>Director</td> 
+	    <td><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#101;&#101;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;'>&#108;&#101;&#101;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;</a></td>
+	  </tr>
+	  <tr>
+	    <td><strong>Adrian Diaz</strong></td>
+	    <td>Gallery Assistant</td> 
+	    <td><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#100;&#114;&#105;&#97;&#110;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;'>&#97;&#100;&#114;&#105;&#97;&#110;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;</a></td>
+	  </tr>
+	  <tr>
+	    <td><strong>Holly Goldsmith-Jones</strong></td>
+	    <td>Events Coordinator</td> 
+	    <td><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#118;&#101;&#110;&#116;&#115;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;'>&#101;&#118;&#101;&#110;&#116;&#115;&#64;&#103;&#114;&#105;&#102;&#102;&#105;&#110;&#97;&#114;&#116;&#112;&#114;&#111;&#106;&#101;&#99;&#116;&#115;&#46;&#99;&#97;</a></td>
+	  </tr>
+	</table>
+  </div>
+</div>
+
+<h2><a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" style="text-decoration: none; color: #808080">
+   Board of Directors
+</a></h2>
+
+<div class="collapse" id="collapseExample2">
+  <div class="well">
+    <table style="width:100%">
+	  <tr>
+	    <td><strong>Board Member 1</strong></td>
+	    <td>Role</td> 
+	    <td>email</td>
+	  </tr>
+	  <tr>
+	    <td><strong>Board Member 2</strong></td>
+	    <td>Role</td> 
+	    <td>email</td>
+	  </tr>
+	  <tr>
+	    <td><strong>Board Member 3</strong></td>
+	    <td>Role</td> 
+	    <td>email</td>
+	  </tr>
+	  <tr>
+	    <td><strong>Board Member 3</strong></td>
+	    <td>Role</td> 
+	    <td>email</td>
+	  </tr>
+	</table>
+  </div>
+</div>
+
 
 
 
