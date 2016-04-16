@@ -35,3 +35,6 @@ collections:
   artworks:
     output: true
     permalink: /artworks/:path/
+  events:
+    output: true
+    permalink: /events/:path/
