@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logo.png" alt="{{ site.title }}" width="258px" height="56px"></a>
+          </div>
+          
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <div class="page-content mainstyle">
+        
+          <article class="post-line">
+<div class="jumbotron" style="font-family: Courier; margin: 50px 0 0 100px;">
+  <header class="post-header">
+    <h2 style="font-size: 40px">{{ page.title }}</h2>
+    {% if page.show-caption %}<h4 style="font-size: 30px">{{ page.show-caption }}</h4>{%endif%}
+  </header>
+
+  	<div>
+    
+    	{{ content }}
+    </div>
+  </div>
+
+</article>
+
+        
+      </div>
+    </div> <!-- /container -->
+    
+    {% include ie10-viewport-fix.html %}
+    {% include google-analytics.html %}
+  </body>
+
+</html>

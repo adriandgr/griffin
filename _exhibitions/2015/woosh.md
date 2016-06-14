@@ -1,6 +1,7 @@
 ---
 layout: page
 title: WOOSH
+date: 2015-09-26 19:30:00 -0700
 show-caption: From Two North Shore Collections
 show-dates: September 26, 2015 – January 19, 2016
 slick: true

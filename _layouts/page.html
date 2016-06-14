@@ -12,6 +12,18 @@ layout: default
   	{% if page.slick == true %}
   	{% include {{ page.slick-path }} %}
   	{%endif%}
+    {% if page.show-img == true %}
+    <figure style="float: left; margin-right: 30px;">
+    <img src="{{site.url}}/assets/img/{{ page.img }}" >
+    <figcaption style=" margin: 10px 0 30px 0;">
+      <span class="artcaption" style="font-size: 10pt; color: #808080">
+        <strong>{{ page.img-artist }}</strong><br>
+        <em>{{ page.img-title }}</em>, {{ page.img-year }}<br>
+        {{ page.img-medium }}
+      </span>  
+    </figcaption>
+    </figure>
+    {%endif%}
     	{{ content }}
     </div>
   </div>

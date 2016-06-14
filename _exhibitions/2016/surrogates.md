@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Surrogates
+date: 2016-03-05 19:30:00 -0700
 show-dates: March 5, 2016 – June 4, 2016
 slick: true
 slick-path: slider-Surrogates.html
